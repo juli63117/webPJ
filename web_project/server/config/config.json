@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": 12345,
+    "database": "Health_in_a_basket",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": 12345,
+    "database": "Health_in_a_basket",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": 12345,
+    "database": "Health_in_a_basket",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

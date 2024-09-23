@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    pad: 0;
+}
+
+.login {
+    width: 360px;
+    padding: 5% 0 0;
+    margin: auto;
+    font-family: "Montserrat" ;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    max-width: 360px;
+    height: 80px;
+    margin: 0 auto 100px;
+    padding: 30px;
+    text-align: center;
+}
+
+.form input:focus {
+    background: #fff;
+}
+
+.form button {
+    font-family: "Montserrat" ;
+    text-transform: uppercase;
+    outline: 0;
+    background: hsl(155, 75%, 21%);
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+
+    right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+th {
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.heading {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 20px;
+    border: none;
+    -webkit-border-radius: 4px / 0;
+    border-radius: 4px / 0;
+    font: normal 30px/1 "Montserrat" ;
+    color: white;
+    background-color: hsl(155, 75%, 21%);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+button {
+    font-family: "Montserrat" ;
+    text-transform: uppercase;
+    outline: 0;
+    text-align: center;
+    background: hsl(155, 75%, 21%);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    height: 60px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    align-items: space-between;
+    flex: 0 1 auto;
+}
+
+.navbar>.thq-navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    box-shadow: 0px -3px 3px 0px #dedbdb;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.navbar>.thq-navbar-nav>span {
+    font: normal 20px/1 "Montserrat" ;
+    color: black;
+    margin-top: 10px;
+}
+
+
+.back {
+    border: 2px solid black;
+    display: block;
+    box-sizing: content-box;
+    float: right;
+    width: auto;
+    height: 30px;
+    position: static;
+    background-color: white;
+    font: normal 20px "Montserrat";
+    color: black;
+    width: 30%;
+}
+
+.td {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+.td>button {
+    width: auto;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    background: hsl(155, 75%, 21%);
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+
+.container {
+    font-family: "Montserrat";
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('./components/img/back.jpg');
+    background-size: cover;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px #dedbdb;
+}
+
+.buttons-profile {
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+h1 {
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: "Montserrat" ;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #b4d6c8;
+    background-size: cover;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px #dedbdb;
+    margin-top: 10px;
+}
+
+ul {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #9bbbaf;
+    box-shadow: 5px 5px 10px 0px #8c8a8a;
+}
+
+li {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333333;
+}
